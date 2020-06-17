@@ -10,10 +10,11 @@ body {
   color: 555;
   margin: 0;
   font-family:'Montserrat', sans-serif;
+  background-color: PapayaWhip;
 }
 #cabecera {
   height: 150px;
-  background-color: blue;
+  background-color: lightblue;
   line-height: 150px;
 
 }
@@ -40,7 +41,7 @@ width: 500px;
   padding-left: 20px;
 }
 #cabecera a {
-  color: white;
+  color: black;
   text-decoration: none;
 
   letter-spacing: 0.1em;
@@ -59,13 +60,26 @@ h1, h2, h3, h4 {
   color: 333;
 }
 p {
-  line-height: normal;
-  font-size: 20px;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 20px;
+}
+#materiales {
+  font-size: 22px;
+  text-decoration: none;
+}
+.pasos {
+  font-size: 22px;
+  text-decoration: none;
 
 }
 .contenedor {
   max-width: 1000px;
   margin: 0 auto;
+
 }
 a {
   color: #1abc9c;
@@ -77,6 +91,22 @@ a:hover {
 .acercaDe {
   text-align: center;
 }
-#información {
+#final {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+  }
 
-}
+#final h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+ }
+ .columna {
+   min-width: 300px;
+   display: inline-block;
+   vertical-align: top;
+ }
+ #final p {
+   color: white;
+ }
+
