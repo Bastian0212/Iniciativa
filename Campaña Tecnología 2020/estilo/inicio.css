@@ -1,0 +1,106 @@
+@@import "url(http://fonts.googleapis.com/css?family=Montserrat:400,700)";
+.contenedor-contenido:nth-child(even){
+  background-color: #f2f2f2;
+}
+.contenedor {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+body {
+  color: 555;
+  margin: 0;
+  font-family:'Montserrat', sans-serif;
+  background-color: lightgreen;
+}
+
+#cabecera {
+  height: 150px;
+  background-color: lightblue;
+  line-height: 150px;
+
+}
+#cabecera-titulo {
+  color: #1abc9c;
+  text-decoration: none;
+  padding-left: 250px;
+  font-size: 45px;
+  letter-spacing: 0.2em;
+  text-transform:
+
+}
+
+img {
+height: 100px;
+width: 100px;
+display: inline-block;
+}
+
+}
+#cabecera a:hover {
+  color: 222;
+}
+.contenido {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 55px;
+}
+
+}
+h1, h2, h3, h4 {
+  color: 333;
+}
+p {
+   font-style: italic;
+    font-size: 25px;
+}
+.frase {
+  padding: 20px;
+  font-size: 30px;
+}
+#materiales {
+  font-size: 22px;
+  text-decoration: none;
+}
+.pasos {
+  font-size: 22px;
+  text-decoration: none;
+
+}
+.contenedor {
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+a {
+  font-size: 30px;
+  color: black;
+  font-style: italic;
+}
+a:hover {
+  color: #F6A623
+}
+
+}
+#final {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+  }
+
+#final h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+ }
+ .columna {
+   min-width: 300px;
+   display: inline-block;
+   vertical-align: top;
+ }
+ #final p {
+   color: white;
+   }
+   button {
+   font-size: 20px;
+   background-color: #ffffff;
+   }
+   
